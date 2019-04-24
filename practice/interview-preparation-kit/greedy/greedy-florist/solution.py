@@ -7,7 +7,7 @@ import re
 import sys
 
 
-# Complete the getMinimumCost function below.
+# buy most expensive firstly, then cheaper
 def getMinimumCost(k, c):
     c = sorted(c, reverse=True)
 
